@@ -1,0 +1,43 @@
+body {
+    background-color: #232323;
+    color: white !important;
+}
+
+#num-log {
+    background-color: rgb(73, 73, 73) !important;
+    resize: none;
+    text-align: end;
+    border: 0px;
+    color: #ccc;
+}
+
+#exp, #exp-eval {
+    white-space: nowrap;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#exp::-webkit-scrollbar, #exp-eval::-webkit-scrollbar {
+    display: none;
+}
+
+#number {
+    text-align: end;
+    border-color: #232323;
+    background-color: rgb(85, 84, 84) !important;
+    border-top: 0px;
+    font-size: 1.3em;
+    color: #ccc;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
